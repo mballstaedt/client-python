@@ -31,16 +31,16 @@ certifi = ">=2022.5.18,<2025.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^24.8.0"
-mypy = "^1.11"
+mypy = "^1.13"
 types-urllib3 = "^1.26.25"
 Sphinx = "^7.1.2"
-sphinx-rtd-theme = "^3.0.1"
+sphinx-rtd-theme = "^3.0.2"
 # keep this in sync with docs/requirements.txt for readthedocs.org
 sphinx-autodoc-typehints = "^2.0.1"
 types-certifi = "^2021.10.8"
-types-setuptools = "^74.1.0"
-pook = "^2.0.0"
-orjson = "^3.10.7"
+types-setuptools = "^75.6.0"
+pook = "^2.0.1"
+orjson = "^3.10.12"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
