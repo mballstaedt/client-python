@@ -22,3 +22,6 @@ git merge upstream/main
 # If you’ve made changes locally and want to push them to your fork:
 
 git push origin main
+
+# 	•	Use git log to check the commit history and ensure the merge commit is included:
+git log --oneline
